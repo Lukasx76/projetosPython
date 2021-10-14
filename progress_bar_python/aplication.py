@@ -12,7 +12,7 @@ import time
 #     time.sleep(1)
 
 # with tqdm(total=10) as barra_progresso:
-#     for i in range(5): # quantas vezes a barra irá aumentar, nesse caso 5 vezes de 20%
+#     for i in range(5): # quantas vezes a barra irá aumentar, nesse caso 5 vezes, de 20% em 20%
 #         time.sleep(1)
 #         barra_progresso.update(2)
 
