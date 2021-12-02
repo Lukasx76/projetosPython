@@ -13,7 +13,7 @@ class Curso:
         self.max_alunos = max_alunos
         self.alunos = []
 
-    def adciona_aluno(self, aluno):
+    def adiciona_aluno(self, aluno):
         if len(self.alunos) < self.max_alunos:
             self.alunos.append(aluno)
             return True
