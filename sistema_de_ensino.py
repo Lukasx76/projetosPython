@@ -25,15 +25,3 @@ class Curso:
             valor += aluno.visualizar_mencao()
 
         return valor / len(self.alunos)
-
-aluno1 = Aluno("Lucas", 19, 99)
-aluno2 = Aluno("pessoa", 19, 99)
-aluno3 = Aluno("pessoa2", 25, 97)
-
-curso = Curso("Literatura", 2)
-
-curso.adiciona_aluno(aluno1)
-curso.adiciona_aluno(aluno2)
-curso.adiciona_aluno(aluno3)
-
-print(curso.obter_media_mencao())
